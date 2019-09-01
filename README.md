@@ -9,3 +9,13 @@ Activate Virtual Environment using venv\Scripts\activate
 
 Step 1.2:
 Install Flask using 'pip install flask'
+
+Step 2.1:
+Create hello.py file and copy paste below lines of code,
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
