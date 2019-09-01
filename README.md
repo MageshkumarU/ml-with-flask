@@ -13,12 +13,15 @@ Install Flask using 'pip install flask'
 Step 2.1:
 Create hello.py file and copy paste below lines of code,
 
+```python
 from flask import Flask
 app = Flask(__name__)
+
 
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
+```
 
 Step 2.2:
 Set FLASK_APP environment variable using below command 'set FLASK_APP=hello.py'
