@@ -19,3 +19,9 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
+
+Step 2.2:
+Set FLASK_APP environment variable using below command 'set FLASK_APP=hello.py'
+
+Step 2.3:
+Running the flask web app using command 'flask run'.
